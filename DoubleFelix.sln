@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "DoubleFelix", "DoubleFelix\DoubleFelix.fsproj", "{02AB9096-F484-40F8-A1BB-D6A8E3800A17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{C8803BB5-8037-4FD1-8986-E4F5097556A1}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormApp", "FormApp\FormApp.csproj", "{F0B43799-5AB5-461F-8504-8A31F4A3E742}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02AB9096-F484-40F8-A1BB-D6A8E3800A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AB9096-F484-40F8-A1BB-D6A8E3800A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AB9096-F484-40F8-A1BB-D6A8E3800A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AB9096-F484-40F8-A1BB-D6A8E3800A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0B43799-5AB5-461F-8504-8A31F4A3E742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0B43799-5AB5-461F-8504-8A31F4A3E742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0B43799-5AB5-461F-8504-8A31F4A3E742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0B43799-5AB5-461F-8504-8A31F4A3E742}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
